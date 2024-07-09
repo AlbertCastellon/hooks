@@ -1,13 +1,18 @@
 import './App.css';
+import Pokemon from './components/Pokemon';
+import Rick from './components/Rick';
+import useFetchCharacters from './hooks/useFecthCharacters';
 
 function App() {
-  const urlPokemon = 'https://pokeapi.co/api/v2/pokemon/1';
-  const urlRick = 'https://rickandmortyapi.com/api/character/1';
-  
+
   return (
     <>
+      <Pokemon />
+      <Rick />
+      
     </>
   );
 }
 
 export default App;
+
